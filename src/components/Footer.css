@@ -1,0 +1,42 @@
+.mb-3 {
+  flex-grow: 1;
+}
+
+footer * {
+  animation: none;
+}
+
+footer div {
+  max-width: 10vw;
+}
+
+span a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+}
+
+@media (min-width: 1900px) {
+  span a,
+  footer span {
+    font-size: 20px !important;
+    margin-right: 2%;
+    width: max-content;
+  }
+}
+
+@media (min-width: 770px) {
+  .d-flex {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 770px) {
+  footer span {
+    margin-bottom: 5vh !important;
+    width: 10vw;
+  }
+
+  footer span :not(.text-light) {
+    width: 50vw;
+  }
+}
