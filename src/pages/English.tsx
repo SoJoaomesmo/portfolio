@@ -64,18 +64,18 @@ function English() {
         <p className="left-text">
           <ul>
             <li className="fs-3">
-              <b>English:</b> I am currently classified as CEFR Level B2,
+              <b>English:</b> I am currently classified as CEFR Level C1,
               allowing me to comfortably use English for both study and work
               purposes.
             </li>
             <li className="fs-3">
-              <b>Backend:</b> I am familiar with JavaScript, Dart, Lua and
-              Flask, and I am currently learning PostgreSQL.
+              <b>Backend:</b> I am familiar with JavaScript, Dart, Lua, Flask
+              and Node.js. And I am currently learning PostgreSQL and Java.
             </li>
             <li className="fs-3">
-              <b>Frontend:</b> I have experience with Flutter, Vue, and basic
-              HTML, and I am improving my skills in React.js, Angular, and
-              Bootstrap.
+              <b>Frontend:</b> I have experience with Flutter, Vue, React,
+              Bootstrap and basic HTML, and I am improving my skills in Angular
+              and TailWindCSS.
             </li>
           </ul>
         </p>
@@ -164,8 +164,39 @@ function English() {
         </section>
       </Section>
 
-      <Section title=".Rendify" img={["/rendify.png", "Rendify logo"]}>
+      <Section
+        title=".TMDB Server"
+        img={["/tmdbserver.png", "Logo do TMDB Server"]}
+      >
         <section className="left-text">
+          <p className="fs-3">
+            Application developed with Node.js using server-side rendering,
+            consuming the TMDB API to display movie and TV show information
+            dynamically. The project uses TailwindCSS to create a modern and
+            responsive interface, allowing users to search content by name and
+            view complete details for each item. The application also handles
+            missing images with a poster fallback system, ensuring a better
+            visual experience. All rendering is done on the server using pure
+            HTML, without the use of frameworks, relying only on native Node.js
+            features.
+          </p>
+          <a
+            className="fs-3"
+            href="https://github.com/SoJoaomesmo/TMDB-Server"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ↙ Click here to learn more about TMDB Server
+          </a>
+        </section>
+      </Section>
+
+      <Section
+        title=".Rendify"
+        img={["/rendify.png", "Logo do Rendify"]}
+        image_first
+      >
+        <section className="right-text">
           <p className="fs-3">
             Rendify is an application that simulates stock trading and portfolio
             management, featuring charts and customization options. The project
@@ -217,12 +248,12 @@ function English() {
             </a>
 
             <a
-              href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGLdVzHStBKgxqkhjtRgBxSqcKVDrJQCzLkZFDWWkDjKjZTNLmlZcsLgVfbKRJKnGkjzBCQ"
+              href="mailto:contact@joaoperuzzo.me"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
+                src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
                 alt="Gmail"
               />
             </a>

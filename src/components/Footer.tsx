@@ -16,19 +16,41 @@ function Footer({ language }: Props) {
         <span className="d-flex align-items-center gap-3">
           <span>
             <i className="bi bi-envelope me-1"></i>
-            <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGLdVzHStBKgxqkhjtRgBxSqcKVDrJQCzLkZFDWWkDjKjZTNLmlZcsLgVfbKRJKnGkjzBCQ">
-              peruzzo2018@gmail.com
+            <a
+              href={
+                language == "br"
+                  ? "mailto:contato@joaoperuzzo.me"
+                  : "mailto:contact@joaoperuzzo.me"
+              }
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {language == "br"
+                ? "contato@joaoperuzzo.me"
+                : "contact@joaoperuzzo.me"}
             </a>
           </span>
 
           <span>
             <i className="bi bi-github me-1"></i>
-            <a href="https://github.com/SoJoaomesmo">SoJoaomesmo</a>
+            <a
+              href="https://github.com/SoJoaomesmo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              SoJoaomesmo
+            </a>
           </span>
 
           <span>
             <i className="bi bi-linkedin me-1"></i>
-            <a href="https://www.linkedin.com/in/joaoperuzzo">joaoperuzzo</a>
+            <a
+              href="https://www.linkedin.com/in/joaoperuzzo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              joaoperuzzo
+            </a>
           </span>
         </span>
       </div>

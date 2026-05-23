@@ -58,18 +58,18 @@ function Portuguese() {
           <ul>
             <li className="fs-3">
               <b>Inglês:</b> Atualmente, sou classificado na escala CEFR como
-              Nível B2 em inglês, podendo utilizar o idioma para estudo e
+              Nível C1 em inglês, podendo utilizar o idioma para estudo e
               trabalho com facilidade.
             </li>
             <li className="fs-3">
               <b>Backend:</b> Neste momento, estou familiarizado com JavaScript,
-              Dart, Lua e Flask. E estou em processo de aprendizado em
-              PostgreSQL.
+              Dart, Lua, Flask e Node.js. E estou em processo de aprendizado em
+              PostgreSQL e Java.
             </li>
             <li className="fs-3">
-              <b>Frontend:</b> Possuo afinidade com Flutter, Vue e HTML básico,
-              e estou aprimorando minhas habilidades em React.js, Angular e
-              Bootstrap.
+              <b>Frontend:</b> Possuo afinidade com Flutter, Vue, React,
+              Bootstrap e HTML básico, e estou aprimorando minhas habilidades em
+              Angular e TailWindCSS.
             </li>
           </ul>
         </p>
@@ -164,8 +164,39 @@ function Portuguese() {
         </section>
       </Section>
 
-      <Section title=".Rendify" img={["/rendify.png", "Logo do Rendify"]}>
+      <Section
+        title=".TMDB Server"
+        img={["/tmdbserver.png", "Logo do TMDB Server"]}
+      >
         <section className="left-text">
+          <p className="fs-3">
+            Aplicação desenvolvida em Node.js com renderização server-side,
+            consumindo a API do TMDB para exibir informações de filmes e séries
+            de forma dinâmica. O projeto utiliza TailwindCSS para criar uma
+            interface moderna e responsiva, permitindo buscar conteúdos por nome
+            e visualizar detalhes completos de cada item. A aplicação também
+            conta com tratamento de imagens ausentes através de fallback de
+            pôster, garantindo uma melhor experiência visual. Toda a
+            renderização é feita no servidor utilizando HTML puro, sem o uso de
+            frameworks, apenas recursos nativos do Node.js.
+          </p>
+          <a
+            className="fs-3"
+            href="https://github.com/SoJoaomesmo/TMDB-Server"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ↙ Clique aqui para descobrir mais sobre o TMDB Server
+          </a>
+        </section>
+      </Section>
+
+      <Section
+        title=".Rendify"
+        img={["/rendify.png", "Logo do Rendify"]}
+        image_first
+      >
+        <section className="right-text">
           <p className="fs-3">
             Rendify é um aplicativo que simula a compra e gestão de ações, com
             recursos de gráficos e configurações. O projeto conta com suporte a
@@ -218,13 +249,13 @@ function Portuguese() {
             </a>
 
             <a
-              href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGLdVzHStBKgxqkhjtRgBxSqcKVDrJQCzLkZFDWWkDjKjZTNLmlZcsLgVfbKRJKnGkjzBCQ"
+              href="mailto:contato@joaoperuzzo.me"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
-                alt="Gmail"
+                src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
+                alt="E-mail"
               />
             </a>
           </div>
